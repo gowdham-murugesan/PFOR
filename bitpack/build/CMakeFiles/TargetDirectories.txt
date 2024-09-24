@@ -1,0 +1,5 @@
+/home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles/bitpacker.dir
+/home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles/main.dir
+/home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles/benchmark.dir
+/home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles/edit_cache.dir
+/home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles/rebuild_cache.dir

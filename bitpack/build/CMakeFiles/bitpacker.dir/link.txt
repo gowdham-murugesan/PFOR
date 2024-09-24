@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbitpacker.a CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.o CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.o CMakeFiles/bitpacker.dir/vertical_128.cpp.o
+/usr/bin/ranlib libbitpacker.a

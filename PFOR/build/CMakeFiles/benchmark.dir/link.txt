@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/benchmark.dir/benchmark.cpp.o -o benchmark  libCompressor.a libPacker.a /opt/vcpkg/installed/x64-linux/lib/libbenchmark.a -lrt 

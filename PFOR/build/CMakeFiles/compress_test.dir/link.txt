@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/compress_test.dir/test.cpp.o -o compress_test  libCompressor.a libPacker.a /opt/vcpkg/installed/x64-linux/lib/libgtest.a /opt/vcpkg/installed/x64-linux/lib/manual-link/libgtest_main.a /opt/vcpkg/installed/x64-linux/lib/libgtest.a 

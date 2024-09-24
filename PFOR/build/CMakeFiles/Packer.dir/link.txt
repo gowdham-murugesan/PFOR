@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPacker.a CMakeFiles/Packer.dir/packing.cpp.o CMakeFiles/Packer.dir/unpacking.cpp.o
+/usr/bin/ranlib libPacker.a

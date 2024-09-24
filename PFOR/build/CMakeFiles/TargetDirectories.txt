@@ -1,0 +1,8 @@
+/home/gowdham-pt7685/github/PFOR/build/CMakeFiles/Compressor.dir
+/home/gowdham-pt7685/github/PFOR/build/CMakeFiles/Packer.dir
+/home/gowdham-pt7685/github/PFOR/build/CMakeFiles/main.dir
+/home/gowdham-pt7685/github/PFOR/build/CMakeFiles/benchmark.dir
+/home/gowdham-pt7685/github/PFOR/build/CMakeFiles/compress_test.dir
+/home/gowdham-pt7685/github/PFOR/build/CMakeFiles/test.dir
+/home/gowdham-pt7685/github/PFOR/build/CMakeFiles/edit_cache.dir
+/home/gowdham-pt7685/github/PFOR/build/CMakeFiles/rebuild_cache.dir

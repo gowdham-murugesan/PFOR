@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/gowdham-pt7685/Gowdham/bitpack/build",
+  "command": "/usr/bin/g++   -g -O3 -march=native -fopt-info-vec -o CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.o -c /home/gowdham-pt7685/Gowdham/bitpack/horizontal_bitpacker.cpp",
+  "file": "/home/gowdham-pt7685/Gowdham/bitpack/horizontal_bitpacker.cpp",
+  "output": "CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.o"
+},
+{
+  "directory": "/home/gowdham-pt7685/Gowdham/bitpack/build",
+  "command": "/usr/bin/g++   -g -O3 -march=native -fopt-info-vec -o CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.o -c /home/gowdham-pt7685/Gowdham/bitpack/vertical_bitpacker.cpp",
+  "file": "/home/gowdham-pt7685/Gowdham/bitpack/vertical_bitpacker.cpp",
+  "output": "CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.o"
+},
+{
+  "directory": "/home/gowdham-pt7685/Gowdham/bitpack/build",
+  "command": "/usr/bin/g++   -g -O3 -march=native -fopt-info-vec -o CMakeFiles/bitpacker.dir/vertical_128.cpp.o -c /home/gowdham-pt7685/Gowdham/bitpack/vertical_128.cpp",
+  "file": "/home/gowdham-pt7685/Gowdham/bitpack/vertical_128.cpp",
+  "output": "CMakeFiles/bitpacker.dir/vertical_128.cpp.o"
+},
+{
+  "directory": "/home/gowdham-pt7685/Gowdham/bitpack/build",
+  "command": "/usr/bin/g++   -g -O3 -march=native -fopt-info-vec -o CMakeFiles/main.dir/main.cpp.o -c /home/gowdham-pt7685/Gowdham/bitpack/main.cpp",
+  "file": "/home/gowdham-pt7685/Gowdham/bitpack/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.o"
+},
+{
+  "directory": "/home/gowdham-pt7685/Gowdham/bitpack/build",
+  "command": "/usr/bin/g++ -DBENCHMARK_STATIC_DEFINE  -g -O3 -march=native -fopt-info-vec -o CMakeFiles/benchmark.dir/benchmark.cpp.o -c /home/gowdham-pt7685/Gowdham/bitpack/benchmark.cpp",
+  "file": "/home/gowdham-pt7685/Gowdham/bitpack/benchmark.cpp",
+  "output": "CMakeFiles/benchmark.dir/benchmark.cpp.o"
+}
+]
