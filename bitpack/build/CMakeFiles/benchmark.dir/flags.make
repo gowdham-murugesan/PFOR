@@ -6,5 +6,5 @@ CXX_DEFINES = -DBENCHMARK_STATIC_DEFINE
 
 CXX_INCLUDES = 
 
-CXX_FLAGS = -g -O3 -march=native -fopt-info-vec
+CXX_FLAGS = -g -O3 -march=native -funroll-loops -fopt-info-vec
 

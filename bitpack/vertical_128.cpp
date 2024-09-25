@@ -3,10 +3,9 @@
 
 using namespace std;
 
-vector<uint32_t> VerticalPacker128::packVertical128(const vector<uint32_t> &input)
+void VerticalPacker128::packVertical128(const uint32_t *__restrict__ input, uint32_t dataSize, uint32_t *__restrict__ packedData)
 {
-    uint32_t dataSize = input.size();
-    uint32_t maxValue = *max_element(input.begin(), input.end());
+    uint32_t maxValue = *max_element(input, input + dataSize);
     uint32_t bitCount = log2(maxValue) + 1;
 
     const uint32_t blockSize = BLOCK_SIZE;
@@ -15,10 +14,7 @@ vector<uint32_t> VerticalPacker128::packVertical128(const vector<uint32_t> &inpu
     uint32_t totalBlocks = (dataSize + blockSize - 1) / blockSize;
 
     uint32_t rowPerBlock = (blockSize + (packPerInt - 1)) / packPerInt;
-    uint32_t packedSize = totalBlocks * rowPerBlock + 2;
 
-
-    vector<uint32_t> packedData(packedSize, 0);
     packedData[0] = dataSize;
     packedData[1] = bitCount;
 
@@ -36,22 +32,17 @@ vector<uint32_t> VerticalPacker128::packVertical128(const vector<uint32_t> &inpu
             }
         }
     }
-
-    return packedData;
 }
 
-vector<uint32_t> VerticalPacker128::unpackVertical128(const vector<uint32_t> &packedData)
+void VerticalPacker128::unpackVertical128(const uint32_t *__restrict__ packedData, uint32_t *__restrict__ unpackedData)
 {
     uint32_t dataSize = packedData[0];
     uint32_t bitCount = packedData[1];
-    uint32_t packedSize = packedData.size();
     uint32_t packPerInt = 32 / bitCount;
     const uint32_t blockSize = BLOCK_SIZE;
     uint32_t totalBlocks = (dataSize + blockSize - 1) / blockSize;
     uint32_t rowPerBlock = (blockSize + (packPerInt - 1)) / packPerInt;
     uint32_t bitMask = (1U << bitCount) - 1;
-
-    vector<uint32_t> unpackedData(dataSize, 0);
 
     uint32_t k = 0;
     for (uint32_t block = 0; block < totalBlocks; block++)
@@ -59,7 +50,7 @@ vector<uint32_t> VerticalPacker128::unpackVertical128(const vector<uint32_t> &pa
         for (uint32_t i = 0; i < packPerInt; i++)
         {
             uint32_t shiftAmount = bitCount * i;
-            uint32_t blockEnd = min( (block + 1) * blockSize, (block * blockSize) + rowPerBlock * (i + 1));
+            uint32_t blockEnd = min((block + 1) * blockSize, (block * blockSize) + rowPerBlock * (i + 1));
 
             for (uint32_t j = 2 + block * rowPerBlock; k < blockEnd; j++)
             {
@@ -67,6 +58,4 @@ vector<uint32_t> VerticalPacker128::unpackVertical128(const vector<uint32_t> &pa
             }
         }
     }
-
-    return unpackedData;
 }

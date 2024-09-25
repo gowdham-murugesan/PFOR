@@ -5,7 +5,7 @@ project(bitpack)
 set(CMAKE_BUILD_TYPE Debug)
 
 find_package(benchmark REQUIRED)
-add_compile_options(-O3 -march=native -fopt-info-vec)
+add_compile_options(-O3 -march=native -funroll-loops -fopt-info-vec)
 
 add_library(bitpacker ./horizontal_bitpacker.cpp ./vertical_bitpacker.cpp ./vertical_128.cpp)
 add_executable(main ./main.cpp)

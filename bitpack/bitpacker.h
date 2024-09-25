@@ -16,8 +16,8 @@ public:
     BitPacker() = default;
     ~BitPacker() = default;
 
-    vector<uint32_t> packData(const vector<uint32_t> &input);
-    vector<uint32_t> unpackData(const vector<uint32_t> &packedData);
+    void packData(const uint32_t *__restrict__ input, uint32_t dataSize, uint32_t *__restrict__ packedData);
+    void unpackData(const uint32_t *__restrict__ packedData, uint32_t *__restrict__ unpackedData, uint32_t dataSize);
 };
 
 class VerticalPacker
@@ -26,8 +26,8 @@ public:
     VerticalPacker() = default;
     ~VerticalPacker() = default;
     
-    vector<uint32_t> packVertical(const vector<uint32_t> &input);
-    vector<uint32_t> unpackVertical(const vector<uint32_t> &packedData);
+    void packVertical(const uint32_t *__restrict__ input, uint32_t dataSize, uint32_t *__restrict__ packedData);
+    void unpackVertical(const uint32_t *__restrict__ packedData, uint32_t *__restrict__ unpackedData);
 };
 
 class VerticalPacker128
@@ -36,12 +36,12 @@ public:
     VerticalPacker128() = default;
     ~VerticalPacker128() = default;
     
-    vector<uint32_t> packVertical128(const vector<uint32_t> &input);
-    vector<uint32_t> unpackVertical128(const vector<uint32_t> &packedData);
+    void packVertical128(const uint32_t *__restrict__ input, uint32_t dataSize, uint32_t *__restrict__ packedData);
+    void unpackVertical128(const uint32_t *__restrict__ packedData, uint32_t *__restrict__ unpackedData);
 };
 
-void printPacked(const vector<uint32_t> &packedData);
-void printUnpacked(const vector<uint32_t> &unpackedData);
+void printPacked(uint32_t *packedData, uint32_t packedSize);
+void printUnpacked(uint32_t *unpackedData, uint32_t unpackedSize);
 void generateData(vector<uint32_t> &input, uint32_t size);
 
 #endif

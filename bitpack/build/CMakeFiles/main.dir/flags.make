@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = 
 
-CXX_FLAGS = -g -O3 -march=native -fopt-info-vec
+CXX_FLAGS = -g -O3 -march=native -funroll-loops -fopt-info-vec
 
