@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/benchmark_vertical.dir/benchmark_vertical.cpp.o -o benchmark_vertical  libbitpacker.a /usr/local/lib/libbenchmark.a -lrt 

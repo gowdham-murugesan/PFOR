@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbitpacker.a CMakeFiles/bitpacker.dir/bitpackingaligned.cpp.o CMakeFiles/bitpacker.dir/simdunalignedbitpacking.cpp.o
+/usr/bin/ranlib libbitpacker.a
