@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gowdham-pt7685/Gowdham/bitpack
+CMAKE_SOURCE_DIR = /home/gowdham-pt7685/github/bitpack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gowdham-pt7685/Gowdham/bitpack/build
+CMAKE_BINARY_DIR = /home/gowdham-pt7685/github/bitpack/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/benchmark.dir/clean
 CMakeFiles/bitpacker.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitpacker.dir/build.make CMakeFiles/bitpacker.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitpacker.dir/build.make CMakeFiles/bitpacker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles --progress-num=3,4,5,6 "Built target bitpacker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gowdham-pt7685/github/bitpack/build/CMakeFiles --progress-num=3,4,5,6 "Built target bitpacker"
 .PHONY : CMakeFiles/bitpacker.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bitpacker.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gowdham-pt7685/github/bitpack/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bitpacker.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gowdham-pt7685/github/bitpack/build/CMakeFiles 0
 .PHONY : CMakeFiles/bitpacker.dir/rule
 
 # Convenience name for target.
@@ -111,14 +111,14 @@ CMakeFiles/bitpacker.dir/clean:
 CMakeFiles/main.dir/all: CMakeFiles/bitpacker.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles --progress-num=7,8 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gowdham-pt7685/github/bitpack/build/CMakeFiles --progress-num=7,8 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gowdham-pt7685/github/bitpack/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gowdham-pt7685/github/bitpack/build/CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.
@@ -137,14 +137,14 @@ CMakeFiles/main.dir/clean:
 CMakeFiles/benchmark.dir/all: CMakeFiles/bitpacker.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles --progress-num=1,2 "Built target benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/gowdham-pt7685/github/bitpack/build/CMakeFiles --progress-num=1,2 "Built target benchmark"
 .PHONY : CMakeFiles/benchmark.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gowdham-pt7685/github/bitpack/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/benchmark.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gowdham-pt7685/github/bitpack/build/CMakeFiles 0
 .PHONY : CMakeFiles/benchmark.dir/rule
 
 # Convenience name for target.

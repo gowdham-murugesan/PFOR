@@ -28,7 +28,7 @@ int main()
     bitPacker.packData(input.data(), dataSize, packedData);
     printPacked(packedData, packedHorizontalSize);
 
-    bitPacker.unpackData(packedData, unpackedData, dataSize);
+    bitPacker.unpackData(packedData, unpackedData);
     printUnpacked(unpackedData, dataSize);
 
     if (!equal(input.begin(), input.end(), unpackedData))
@@ -43,10 +43,10 @@ int main()
     uint32_t *packedVertical = new uint32_t[packedSize]{0};
     uint32_t *unpackedVertical = new uint32_t[dataSize]{0};
 
-    verticalPacker.packVertical(input.data(), dataSize, packedVertical);
+    verticalPacker.packData(input.data(), dataSize, packedVertical);
     printPacked(packedVertical, packedSize);
 
-    verticalPacker.unpackVertical(packedVertical, unpackedVertical);
+    verticalPacker.unpackData(packedVertical, unpackedVertical);
     printUnpacked(unpackedVertical, dataSize);
 
     if (!equal(input.begin(), input.end(), unpackedVertical))
@@ -63,10 +63,10 @@ int main()
     uint32_t *packedVertical128 = new uint32_t[packedVertical128Size]{0};
     uint32_t *unpackedVertical128 = new uint32_t[dataSize]{0};
 
-    verticalPacker128.packVertical128(input.data(), dataSize, packedVertical128);
+    verticalPacker128.packData(input.data(), dataSize, packedVertical128);
     printPacked(packedVertical128, packedVertical128Size);
 
-    verticalPacker128.unpackVertical128(packedVertical128, unpackedVertical128);
+    verticalPacker128.unpackData(packedVertical128, unpackedVertical128);
     printUnpacked(unpackedVertical128, dataSize);
 
     if (!equal(input.begin(), input.end(), unpackedVertical128))

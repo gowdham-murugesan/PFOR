@@ -1,7 +1,7 @@
 CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.o: \
- /home/gowdham-pt7685/Gowdham/bitpack/vertical_bitpacker.cpp \
+ /home/gowdham-pt7685/github/bitpack/vertical_bitpacker.cpp \
  /usr/include/stdc-predef.h \
- /home/gowdham-pt7685/Gowdham/bitpack/bitpacker.h \
+ /home/gowdham-pt7685/github/bitpack/bitpacker.h \
  /usr/include/c++/13/cstdint \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

@@ -1,4 +1,4 @@
-# Install script for directory: /home/gowdham-pt7685/Gowdham/bitpack
+# Install script for directory: /home/gowdham-pt7685/github/bitpack
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gowdham-pt7685/Gowdham/bitpack/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/gowdham-pt7685/github/bitpack/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

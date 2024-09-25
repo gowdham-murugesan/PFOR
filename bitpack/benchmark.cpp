@@ -18,7 +18,7 @@ static void HorizontalBitPacking(benchmark::State &state)
     for (auto _ : state)
     {
         bitPacker.packData(input.data(), dataSize, packedData);
-        bitPacker.unpackData(packedData, unpackedData, dataSize);
+        bitPacker.unpackData(packedData, unpackedData);
     }
     if (!equal(input.begin(), input.end(), unpackedData))
         throw runtime_error("Bug in horizontal!");
@@ -44,8 +44,8 @@ static void VerticalBitPacking(benchmark::State &state)
 
     for (auto _ : state)
     {
-        verticalPacker.packVertical(input.data(), dataSize, packedVertical);
-        verticalPacker.unpackVertical(packedVertical, unpackedVertical);
+        verticalPacker.packData(input.data(), dataSize, packedVertical);
+        verticalPacker.unpackData(packedVertical, unpackedVertical);
     }
     if (!equal(input.begin(), input.end(), unpackedVertical))
         throw runtime_error("Bug in vertical!");
@@ -74,8 +74,8 @@ static void VerticalBitPacking128(benchmark::State &state)
 
     for (auto _ : state)
     {
-        verticalPacker128.packVertical128(input.data(), dataSize, packedVertical128);
-        verticalPacker128.unpackVertical128(packedVertical128, unpackedVertical128);
+        verticalPacker128.packData(input.data(), dataSize, packedVertical128);
+        verticalPacker128.unpackData(packedVertical128, unpackedVertical128);
     }
     if (!equal(input.begin(), input.end(), unpackedVertical128))
         throw runtime_error("Bug in vertical128!");

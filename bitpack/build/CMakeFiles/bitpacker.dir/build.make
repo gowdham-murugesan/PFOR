@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gowdham-pt7685/Gowdham/bitpack
+CMAKE_SOURCE_DIR = /home/gowdham-pt7685/github/bitpack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gowdham-pt7685/Gowdham/bitpack/build
+CMAKE_BINARY_DIR = /home/gowdham-pt7685/github/bitpack/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/bitpacker.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/bitpacker.dir/progress.make
 include CMakeFiles/bitpacker.dir/flags.make
 
 CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.o: CMakeFiles/bitpacker.dir/flags.make
-CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.o: /home/gowdham-pt7685/Gowdham/bitpack/horizontal_bitpacker.cpp
+CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.o: /home/gowdham-pt7685/github/bitpack/horizontal_bitpacker.cpp
 CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.o: CMakeFiles/bitpacker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.o -MF CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.o.d -o CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.o -c /home/gowdham-pt7685/Gowdham/bitpack/horizontal_bitpacker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gowdham-pt7685/github/bitpack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.o -MF CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.o.d -o CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.o -c /home/gowdham-pt7685/github/bitpack/horizontal_bitpacker.cpp
 
 CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gowdham-pt7685/Gowdham/bitpack/horizontal_bitpacker.cpp > CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gowdham-pt7685/github/bitpack/horizontal_bitpacker.cpp > CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.i
 
 CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gowdham-pt7685/Gowdham/bitpack/horizontal_bitpacker.cpp -o CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gowdham-pt7685/github/bitpack/horizontal_bitpacker.cpp -o CMakeFiles/bitpacker.dir/horizontal_bitpacker.cpp.s
 
 CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.o: CMakeFiles/bitpacker.dir/flags.make
-CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.o: /home/gowdham-pt7685/Gowdham/bitpack/vertical_bitpacker.cpp
+CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.o: /home/gowdham-pt7685/github/bitpack/vertical_bitpacker.cpp
 CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.o: CMakeFiles/bitpacker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.o -MF CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.o.d -o CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.o -c /home/gowdham-pt7685/Gowdham/bitpack/vertical_bitpacker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gowdham-pt7685/github/bitpack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.o -MF CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.o.d -o CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.o -c /home/gowdham-pt7685/github/bitpack/vertical_bitpacker.cpp
 
 CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gowdham-pt7685/Gowdham/bitpack/vertical_bitpacker.cpp > CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gowdham-pt7685/github/bitpack/vertical_bitpacker.cpp > CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.i
 
 CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gowdham-pt7685/Gowdham/bitpack/vertical_bitpacker.cpp -o CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gowdham-pt7685/github/bitpack/vertical_bitpacker.cpp -o CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.s
 
 CMakeFiles/bitpacker.dir/vertical_128.cpp.o: CMakeFiles/bitpacker.dir/flags.make
-CMakeFiles/bitpacker.dir/vertical_128.cpp.o: /home/gowdham-pt7685/Gowdham/bitpack/vertical_128.cpp
+CMakeFiles/bitpacker.dir/vertical_128.cpp.o: /home/gowdham-pt7685/github/bitpack/vertical_128.cpp
 CMakeFiles/bitpacker.dir/vertical_128.cpp.o: CMakeFiles/bitpacker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bitpacker.dir/vertical_128.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bitpacker.dir/vertical_128.cpp.o -MF CMakeFiles/bitpacker.dir/vertical_128.cpp.o.d -o CMakeFiles/bitpacker.dir/vertical_128.cpp.o -c /home/gowdham-pt7685/Gowdham/bitpack/vertical_128.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gowdham-pt7685/github/bitpack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bitpacker.dir/vertical_128.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bitpacker.dir/vertical_128.cpp.o -MF CMakeFiles/bitpacker.dir/vertical_128.cpp.o.d -o CMakeFiles/bitpacker.dir/vertical_128.cpp.o -c /home/gowdham-pt7685/github/bitpack/vertical_128.cpp
 
 CMakeFiles/bitpacker.dir/vertical_128.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bitpacker.dir/vertical_128.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gowdham-pt7685/Gowdham/bitpack/vertical_128.cpp > CMakeFiles/bitpacker.dir/vertical_128.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gowdham-pt7685/github/bitpack/vertical_128.cpp > CMakeFiles/bitpacker.dir/vertical_128.cpp.i
 
 CMakeFiles/bitpacker.dir/vertical_128.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bitpacker.dir/vertical_128.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gowdham-pt7685/Gowdham/bitpack/vertical_128.cpp -o CMakeFiles/bitpacker.dir/vertical_128.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gowdham-pt7685/github/bitpack/vertical_128.cpp -o CMakeFiles/bitpacker.dir/vertical_128.cpp.s
 
 # Object files for target bitpacker
 bitpacker_OBJECTS = \
@@ -125,7 +125,7 @@ libbitpacker.a: CMakeFiles/bitpacker.dir/vertical_bitpacker.cpp.o
 libbitpacker.a: CMakeFiles/bitpacker.dir/vertical_128.cpp.o
 libbitpacker.a: CMakeFiles/bitpacker.dir/build.make
 libbitpacker.a: CMakeFiles/bitpacker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libbitpacker.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gowdham-pt7685/github/bitpack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libbitpacker.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/bitpacker.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bitpacker.dir/link.txt --verbose=$(VERBOSE)
 
@@ -138,6 +138,6 @@ CMakeFiles/bitpacker.dir/clean:
 .PHONY : CMakeFiles/bitpacker.dir/clean
 
 CMakeFiles/bitpacker.dir/depend:
-	cd /home/gowdham-pt7685/Gowdham/bitpack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gowdham-pt7685/Gowdham/bitpack /home/gowdham-pt7685/Gowdham/bitpack /home/gowdham-pt7685/Gowdham/bitpack/build /home/gowdham-pt7685/Gowdham/bitpack/build /home/gowdham-pt7685/Gowdham/bitpack/build/CMakeFiles/bitpacker.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/gowdham-pt7685/github/bitpack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gowdham-pt7685/github/bitpack /home/gowdham-pt7685/github/bitpack /home/gowdham-pt7685/github/bitpack/build /home/gowdham-pt7685/github/bitpack/build /home/gowdham-pt7685/github/bitpack/build/CMakeFiles/bitpacker.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/bitpacker.dir/depend
 

@@ -1,6 +1,6 @@
 CMakeFiles/main.dir/main.cpp.o: \
- /home/gowdham-pt7685/Gowdham/bitpack/main.cpp /usr/include/stdc-predef.h \
- /home/gowdham-pt7685/Gowdham/bitpack/bitpacker.h \
+ /home/gowdham-pt7685/github/bitpack/main.cpp /usr/include/stdc-predef.h \
+ /home/gowdham-pt7685/github/bitpack/bitpacker.h \
  /usr/include/c++/13/cstdint \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

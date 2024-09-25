@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/benchmark.dir/benchmark.cpp.o -o benchmark  libbitpacker.a /usr/local/lib/libbenchmark.a -lrt 
+/usr/bin/c++ -g CMakeFiles/benchmark.dir/benchmark.cpp.o -o benchmark  libbitpacker.a /usr/local/lib/libbenchmark.a -lrt 

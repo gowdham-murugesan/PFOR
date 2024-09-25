@@ -67,8 +67,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/gowdham-pt7685/Gowdham/bitpack/build",
-		"source" : "/home/gowdham-pt7685/Gowdham/bitpack"
+		"build" : "/home/gowdham-pt7685/github/bitpack/build",
+		"source" : "/home/gowdham-pt7685/github/bitpack"
 	},
 	"version" : 
 	{

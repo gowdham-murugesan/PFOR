@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void VerticalPacker::packVertical(const uint32_t *__restrict__ input, uint32_t dataSize, uint32_t *__restrict__ packedData)
+void VerticalPacker::packData(const uint32_t *__restrict__ input, uint32_t dataSize, uint32_t *__restrict__ packedData)
 {
     uint32_t maxValue = *max_element(input, input + dataSize);
     uint32_t bitCount = log2(maxValue) + 1;
@@ -24,7 +24,7 @@ void VerticalPacker::packVertical(const uint32_t *__restrict__ input, uint32_t d
     }
 }
 
-void VerticalPacker::unpackVertical(const uint32_t *__restrict__ packedData, uint32_t *__restrict__ unpackedData)
+void VerticalPacker::unpackData(const uint32_t *__restrict__ packedData, uint32_t *__restrict__ unpackedData)
 {
     uint32_t dataSize = packedData[0];
     uint32_t bitCount = packedData[1];

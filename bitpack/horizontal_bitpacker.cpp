@@ -29,8 +29,9 @@ void BitPacker::packData(const uint32_t *__restrict__ input, uint32_t dataSize, 
     }
 }
 
-void BitPacker::unpackData(const uint32_t *__restrict__ packedData, uint32_t *__restrict__ unpackedData, uint32_t dataSize)
+void BitPacker::unpackData(const uint32_t *__restrict__ packedData, uint32_t *__restrict__ unpackedData)
 {
+    uint32_t dataSize = packedData[0];
     uint32_t bitCount = packedData[1];
 
     uint32_t bitPosition = 0;

@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void VerticalPacker128::packVertical128(const uint32_t *__restrict__ input, uint32_t dataSize, uint32_t *__restrict__ packedData)
+void VerticalPacker128::packData(const uint32_t *__restrict__ input, uint32_t dataSize, uint32_t *__restrict__ packedData)
 {
     uint32_t maxValue = *max_element(input, input + dataSize);
     uint32_t bitCount = log2(maxValue) + 1;
@@ -34,7 +34,7 @@ void VerticalPacker128::packVertical128(const uint32_t *__restrict__ input, uint
     }
 }
 
-void VerticalPacker128::unpackVertical128(const uint32_t *__restrict__ packedData, uint32_t *__restrict__ unpackedData)
+void VerticalPacker128::unpackData(const uint32_t *__restrict__ packedData, uint32_t *__restrict__ unpackedData)
 {
     uint32_t dataSize = packedData[0];
     uint32_t bitCount = packedData[1];
